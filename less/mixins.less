@@ -1,1 +1,23 @@
 // Mixins Here
+//Parametric Mixin
+.button-layout (@width, @padding){
+    color: @porcelain;
+    background-color: @btn-bg-color;
+    font-size: 1.8rem;
+    width: @width;
+    padding: @padding;
+    margin-top: solid 1px;
+    border-radius: 10px;
+    text-align: center;
+    border: none;
+}
+
+//Regular Mixins
+.hidden-img() {
+    display: none;
+}
+
+.some-flexes() {
+    display: flex;
+    justify-content: center;
+}
